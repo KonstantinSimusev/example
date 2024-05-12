@@ -5,12 +5,13 @@
 }
 
 body {
-  padding-inline: clamp(0.3125rem, -4.9554rem + 26.3393vw, 18.75rem);
+  padding-inline: clamp(0.625rem, -5.757rem + 27.23vw, 18.75rem);
   font-family: 'Roboto-Regular', sans-serif;
   font-size: 18px;
-  margin: 0 auto;
+  margin: 0;
   min-inline-size: 375px;
   max-inline-size: 1440px;
+  color: #fff;
 }
 
 h1,
