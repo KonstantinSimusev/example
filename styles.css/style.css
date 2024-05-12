@@ -1,9 +1,13 @@
 .page {
+  background-color: #000;
   background-image: linear-gradient(#000, #3d5c72);
   block-size: 100vh;
 }
 
 h1 {
   padding-block-start: 20px;
-  letter-spacing: 2px;
+}
+
+p {
+  padding-block-start: 20px;
 }
