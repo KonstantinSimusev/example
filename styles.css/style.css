@@ -4,10 +4,29 @@
   block-size: 100vh;
 }
 
-h1 {
-  padding-block-start: 20px;
+.header {
+  padding-block: 20px;
 }
 
-p {
-  padding-block-start: 20px;
+.pack-chart {
+  display: grid;
+
+}
+
+.pack-chart__list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5%;
+  padding-block-start: 10px;
+  padding-inline: 3%;
+  border-bottom: 1px solid rgb(255 255 255 / .3);
+}
+
+.pack-chart__list-item {
+  padding-inline: 3%;
+}
+
+.column {
+  background-color: rgb(255 255 255 / .1);
+  block-size: 100px;
 }
