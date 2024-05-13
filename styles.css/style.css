@@ -28,7 +28,7 @@
 .chart__columns-list {
   display: grid;
   align-items: end;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   border-block-end: 1px solid rgb(255 255 255 / .3);
 }
 
@@ -78,10 +78,14 @@
   block-size: calc(60 * 1px);
 }
 
+.tup-11 {
+  block-size: calc(0 * 1px);
+}
+
 .chart__titles-list {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(9, 1fr);
 }
 
 .chart__titles-list-item {

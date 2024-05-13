@@ -8,7 +8,7 @@ body {
   padding-inline: clamp(0.625rem, -5.757rem + 27.23vw, 18.75rem);
   font-family: 'Roboto-Regular', sans-serif;
   font-size: 18px;
-  margin: 0;
+  margin: 0 auto;
   min-inline-size: 375px;
   max-inline-size: 1440px;
   color: #fff;
