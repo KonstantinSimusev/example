@@ -10,12 +10,44 @@
   </head>
   <body class="page">
     <header class="header">
-      <h1>Hello, World</h1>
+      <svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <path
+          class="box"
+          fill="#1C274C"
+          d="m17.578 4.432-2-1.05C13.822 2.461 12.944 2 12 2s-1.822.46-3.578 1.382l-2 1.05c-1.773.93-2.816 1.478-3.462 2.21l9.04 4.52 9.04-4.52c-.646-.732-1.688-1.28-3.462-2.21ZM21.748 7.964l-8.998 4.5v9.44c.718-.179 1.535-.607 2.828-1.286l2-1.05c2.151-1.129 3.227-1.693 3.825-2.708C22 15.846 22 14.583 22 12.06v-.117c0-1.893 0-3.076-.252-3.978ZM11.25 21.904v-9.44l-8.998-4.5C2 8.866 2 10.05 2 11.941v.117c0 2.525 0 3.788.597 4.802.598 1.015 1.674 1.58 3.825 2.709l2 1.049c1.293.679 2.11 1.107 2.828 1.286Z"
+        />
+      </svg>
+      <h1 class="logo__title">MagMetalPack</h1>
+      <button class="button">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <path
+            class="burger"
+            stroke="#000"
+            stroke-linecap="round"
+            stroke-width="2"
+            d="M4 18h16M4 12h16M4 6h16"
+          />
+        </svg>
+      </button>
     </header>
     <main class="main">
+      <section class="cover">
+        <h2 class="cover__date">
+        <span class="cover__text">25 января 2024 г</span>
+        <span class="cover__text">Смена 1</span>
+        <span class="cover__text">Бригада 1</span>
+      </h2>
+      <h2 class="cover__master">
+        <span class="cover__text">Мастер</span>
+        <span class="cover__text">Иванов Иван Иванович</span>
+      </h2>
+      </section>
       <section class="content">
         <article class="chart">
-          <h2 class="chart__title">Планируемая упаковка&nbsp;металлопродукции на&nbsp;текущую&nbsp;смену в&nbsp;штуках</h2>
+          <h2 class="chart__title">
+            Планируемый объем упаковки&nbsp;металлопродукции
+            на&nbsp;текущую&nbsp;смену в&nbsp;штуках
+          </h2>
           <ul class="chart__columns-list">
             <li class="chart__columns-list-item">
               <span>25</span>
@@ -85,7 +117,6 @@
           </ul>
         </article>
       </section>
-      
     </main>
     <footer class="footer"></footer>
   </body>

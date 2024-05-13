@@ -2,10 +2,70 @@
   background-color: #000;
   background-image: linear-gradient(#000, #3d5c72);
   block-size: 100vh;
+  color: rgb(255 255 255 / 0.8);
 }
 
 .header {
+  display: grid;
+  grid-template-columns: 25px auto 40px;
+  align-items: center;
+  gap: 5px;
   padding-block: 20px;
+  color: rgb(255 255 255 / 0.5);
+}
+
+.box {
+  fill: rgb(255 255 255 / 0.5);
+}
+
+.logo__title {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.button {
+  border: transparent;
+  background-color: transparent;
+}
+
+.burger {
+  stroke: rgb(255 255 255 / 0.5);
+}
+
+.main {
+  display: grid;
+  gap: 20px;
+}
+
+.cover {
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  display: grid;
+  gap: 10px;
+  position: relative;
+  background-image: url(../images/overlay.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.cover::after {
+  content: "";
+  border-radius: 5px;
+  position: absolute;
+  inset: 0;
+  display: block;
+  background-color: rgb(0 0 0 / 0.8);
+}
+
+.cover__text {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  z-index: 1;
+  letter-spacing: 1px;
+  line-height: 1.35;
 }
 
 .chart {
@@ -14,36 +74,32 @@
 }
 
 .chart__title {
-  font-size: 18px;
-  border-block-end: 1px solid rgb(255 255 255 / .3);
+  border-block-end: 1px solid rgb(255 255 255 / 0.3);
   padding-block-end: 5px;
-  /* text-align: center;
-  text-transform: uppercase;
-  font-weight: normal;
-  letter-spacing: 2px;
-  line-height: 1.5;
-  padding-block-end: 25px; */
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.35;
 }
 
 .chart__columns-list {
   display: grid;
-  align-items: end;
   grid-template-columns: repeat(9, 1fr);
-  border-block-end: 1px solid rgb(255 255 255 / .3);
+  align-items: end;
+  border-block-end: 1px solid rgb(255 255 255 / 0.3);
 }
 
 .chart__columns-list-item {
-  text-align: center;
-  padding-block-start: 10px;
   padding-inline: 25%;
+  padding-block-start: 10px;
+  text-align: center;
 }
 
 .chart__column {
-  background-color: rgb(255 255 255 / .1);
+  border-inline-start: 1px solid rgb(255 255 255 / 0.3);
+  border-inline-end: 1px solid rgb(255 255 255 / 0.3);
+  border-block-start: 1px solid rgb(255 255 255 / 0.3);
+  background-color: rgb(255 255 255 / 0.1);
   block-size: 100px;
-  border-block-start: 1px solid rgb(255 255 255 / .3);
-  border-inline-start: 1px solid rgb(255 255 255 / .3);
-  border-inline-end: 1px solid rgb(255 255 255 / .3);
 }
 
 .nta-k {
@@ -84,8 +140,8 @@
 
 .chart__titles-list {
   display: grid;
-  justify-items: center;
   grid-template-columns: repeat(9, 1fr);
+  justify-items: center;
 }
 
 .chart__titles-list-item {
