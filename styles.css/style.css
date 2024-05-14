@@ -43,7 +43,7 @@
 
 .main {
   display: grid;
-  gap: 20px;
+  gap: 30px;
 }
 
 .cover {
@@ -72,11 +72,11 @@
   position: relative;
   z-index: 1;
   display: block;
-  font-size: 14px;
   line-height: 1.35;
+  font-size: 18px;
   letter-spacing: .5px;
   text-transform: uppercase;
-  color: #222;
+  color: rgb(0 0 0 / .9);
 }
 
 .chart {
@@ -87,9 +87,10 @@
 .chart__title {
   border-block-end: 1px solid rgb(255 255 255 / 0.3);
   padding-block-end: 5px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.35;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .chart__columns-list {
