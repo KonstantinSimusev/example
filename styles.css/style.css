@@ -11,7 +11,6 @@
   align-items: center;
   gap: 5px;
   padding-block: 20px;
-  color: rgb(255 255 255 / 0.5);
 }
 
 .logo {
@@ -19,7 +18,7 @@
 }
 
 .box {
-  fill: rgb(255 255 255 / 0.5);
+  fill: rgb(255 255 255 / .8);
 }
 
 .logo__title {
@@ -39,7 +38,7 @@
 }
 
 .burger {
-  stroke: rgb(255 255 255 / 0.5);
+  stroke: rgb(255 255 255 / .8);
 }
 
 .main {
