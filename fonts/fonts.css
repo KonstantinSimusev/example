@@ -42,3 +42,12 @@
   font-weight: 300;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Oswald-Bold';
+  src:
+    local('Oswald-Bold'),
+    url(./oswald/Oswald-Bold.ttf) format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
