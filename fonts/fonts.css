@@ -11,7 +11,7 @@
   font-family: 'Roboto-Bold';
   src:
     local('Roboto-Bold'),
-    url(./Roboto-Regular.woff) format('woff');
+    url(./Roboto-Bold.woff) format('woff');
   font-weight: bold;
   font-display: swap;
 }
