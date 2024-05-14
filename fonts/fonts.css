@@ -1,9 +1,18 @@
 @font-face {
+  font-family: 'Roboto-Light';
+  src:
+    local('Roboto-Light'),
+    url(./roboto/Roboto-Light.woff) format('woff');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Roboto-Regular';
   src:
     local('Roboto-Regular'),
-    url(./Roboto-Regular.woff) format('woff');
-  font-weight: normal;
+    url(./roboto/Roboto-Regular.woff) format('woff');
+  font-weight: 400;
   font-display: swap;
 }
 
@@ -11,7 +20,25 @@
   font-family: 'Roboto-Bold';
   src:
     local('Roboto-Bold'),
-    url(./Roboto-Bold.woff) format('woff');
-  font-weight: bold;
+    url(./roboto/Roboto-Bold.woff) format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src:
+    local('Roboto-Black'),
+    url(./roboto/Roboto-Black.woff) format('woff');
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src:
+    local('OpenSans-Light'),
+    url(./opensans/OpenSans-Light.woff) format('woff');
+  font-weight: 300;
   font-display: swap;
 }

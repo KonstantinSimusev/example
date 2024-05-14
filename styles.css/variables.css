@@ -1,0 +1,31 @@
+:root {
+  --white-color: #fff;
+  --abdelbeards-color: #d3d3d3;
+  --gainsborough-color: #e7e7e7;
+  --green-color: #007f0c;
+  --darkgreen-color: #00cc14;
+  --olivegreen-color: #004306;
+  --red-color: #f00;
+  --black-color: #000;
+  --graphiteblack-color: #1a1a1a;
+
+  --main-font: 'Roboto-Regular', sans-serif;
+  --black-font: 'Roboto-Black', sans-serif;
+  --light-font: 'Roboto-Light', sans-serif;
+  --bold-font: 'Roboto-Bold', sans-serif;
+
+  --chart-font: 'OpenSans-Light', sans-serif;
+
+  --main-font-weight: 400;
+  --accent-font-weight: 700;
+
+  --main-color: var(--white-color, #fff);
+  --accent-color: var(--black-color, #000);
+  --second-accent-color: var(--white-color, #fff);
+
+  --layer-color: var(--abdelbeards-color, #d3d3d3);
+  --first-gradient-color: var(--gainsborough-color, #e7e7e7);
+  --second-gradient-color: var(--graphiteblack-color, #1a1a1a);
+
+  --main-animation-color: var(--red-color, #f00);
+}

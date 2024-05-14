@@ -22,6 +22,7 @@
 }
 
 .logo__title {
+  font-family: var(--black-font);
   font-size: 18px;
   letter-spacing: 1px;
 }
@@ -65,14 +66,14 @@
   position: absolute;
   inset: 0;
   display: block;
-  background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(255 255 255 / .3));
+  background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgba(115 115 115 / .3));
 }
 
 .cover__text {
   position: relative;
   z-index: 1;
   display: block;
-  font-family: 'Roboto-Bold', sans-serif;
+  font-family: var(--accent-font);
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 2px;
@@ -90,18 +91,24 @@
   gap: 10px;
   padding-block-start: 10px;
   padding-inline: 10px;
-  padding-block-end: 20px;
+  padding-block-end: 15px;
   border: 1px solid rgb(255 255 255 / .3);
   border-radius: 5px;
   background-color: rgb(0 0 0 / .3);
+  font-family: var(--chart-font);
 }
 
 .chart__title {
+  display: flex;
+  justify-content: space-between;
   padding-block-end: 5px;
   font-size: 18px;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.35;
   letter-spacing: 1px;
+  font-family: var(--title-font);
+  text-transform: uppercase;
+
 }
 
 .chart__columns-list {
@@ -118,6 +125,7 @@
   padding-inline: 25%;
   padding-block-start: 10px;
   text-align: center;
+  font-size: 16px;
 }
 
 .chart__column {
