@@ -11,18 +11,13 @@
   --graphiteblack-color: #1a1a1a;
 
   --main-font: 'Roboto-Regular', sans-serif;
-  --black-font: 'Roboto-Black', sans-serif;
-  --light-font: 'Roboto-Light', sans-serif;
-  --bold-font: 'Roboto-Bold', sans-serif;
-
   --chart-font: 'OpenSans-Light', sans-serif;
   --cover-font: 'Oswald-Bold', sans-serif;
   --logo-font: 'Manrope-Bold', sans-serif;
 
-  --main-font-weight: 400;
-  --accent-font-weight: 700;
 
   --main-color: var(--light-white-color, #e3e3e3);
+
   --accent-color: var(--black-color, #000);
   --second-accent-color: var(--white-color, #fff);
 
