@@ -5,10 +5,6 @@
 }
 
 body {
-  padding-inline: clamp(0.625rem, -5.757rem + 27.23vw, 18.75rem);
-  padding-block-end: 30px;
-  font-family: var(--main-font);
-  font-size: 18px;
   margin: 0 auto;
   min-inline-size: 375px;
   max-inline-size: 1440px;

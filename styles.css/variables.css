@@ -1,29 +1,22 @@
 :root {
   --white-color: #fff;
-  --light-white-color: rgb(255 255 255 / .8);
-  --abdelbeards-color: #d3d3d3;
-  --gainsborough-color: #e7e7e7;
-  --green-color: #007f0c;
-  --darkgreen-color: #00cc14;
-  --olivegreen-color: #004306;
-  --red-color: #f00;
+  --supra-color: rgb(255 255 255 / .1);
+  --extra-color: rgb(255 255 255 / .3);
+  --light-color: rgb(255 255 255 / .8);
+  --ocean-color: #3d5c72;
   --black-color: #000;
-  --graphiteblack-color: #1a1a1a;
 
-  --main-font: 'Roboto-Regular', sans-serif;
-  --chart-font: 'OpenSans-Light', sans-serif;
+  --main-font: 'OpenSans-Light', sans-serif;
   --cover-font: 'Oswald-Bold', sans-serif;
   --logo-font: 'Manrope-Bold', sans-serif;
+  --presence-font: 'Manrope-Regulare', sans-serif;
 
+  --main-color: var(--light-color, rgb(255 255 255 / .8));
+  --bg-color: var(--black-color, #000);
+  --bg-column-color: var(--supra-color, rgb(255 255 255 / .1));
 
-  --main-color: var(--light-white-color, #e3e3e3);
+  --top-layer: var(--black-color, #000);
+  --bottom-layer: var(--ocean-color), #3d5c72;
 
-  --accent-color: var(--black-color, #000);
-  --second-accent-color: var(--white-color, #fff);
-
-  --layer-color: var(--abdelbeards-color, #d3d3d3);
-  --first-gradient-color: var(--gainsborough-color, #e7e7e7);
-  --second-gradient-color: var(--graphiteblack-color, #1a1a1a);
-
-  --main-animation-color: var(--red-color, #f00);
+  --border-color: var(--extra-color, rgb(255 255 255 / .3));
 }
