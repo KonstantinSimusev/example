@@ -147,7 +147,7 @@
   border-inline-start: 1px solid var(--border-color);
   border-inline-end: 1px solid var(--border-color);
   border-block-start: 1px solid var(--border-color);
-  background-color: var(--bg-column-color);
+  background-color: var(--column-color);
   block-size: 100px;
 }
 
@@ -157,8 +157,32 @@
   font-size: 16px;
 }
 
-.nta-k {
-  block-size: calc(25 * 1px);
+.nta__remainder {
+  block-size: calc(0 * 1px);
+}
+
+.apr-2__remainder {
+  block-size: calc(12 * 1px);
+}
+
+.apr-3__remainder {
+  block-size: calc(19 * 1px);
+}
+
+.apr-4__remainder {
+  block-size: calc(0 * 1px);
+}
+
+.apr-5__remainder {
+  block-size: calc(0 * 1px);
+}
+
+.apr-8__remainder {
+  block-size: calc(0 * 1px);
+}
+
+.apr-9__remainder {
+  block-size: calc(0 * 1px);
 }
 
 .nta {
@@ -196,6 +220,23 @@
 .titles-list {
   justify-items: center;
   padding-block-end: 5px;
+}
+
+.presence-wrapper {
+  display: grid;
+  grid-template-columns: 30% auto;
+  gap: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.area-wrapper {
+  display: grid;
+}
+
+.presence__block {
+  display: flex;
+  justify-content: space-between;
 }
 
 .railway__style {

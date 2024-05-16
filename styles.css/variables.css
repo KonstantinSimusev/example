@@ -1,8 +1,11 @@
 :root {
   --white-color: #fff;
-  --supra-color: rgb(255 255 255 / .1);
+  --supra-color: rgb(255 255 255 / .2);
   --extra-color: rgb(255 255 255 / .3);
   --light-color: rgb(255 255 255 / .8);
+  --red-color: rgba(221, 165, 165, 0.1);
+  --green-color: rgba(167, 204, 167, 0.1);
+  --yellow-color: rgb(255 252 159 / .1);
   --ocean-color: #3d5c72;
   --black-color: #000;
 
@@ -13,7 +16,7 @@
 
   --main-color: var(--light-color, rgb(255 255 255 / .8));
   --bg-color: var(--black-color, #000);
-  --bg-column-color: var(--supra-color, rgb(255 255 255 / .1));
+  --column-color: var(--supra-color, rgb(255 255 255 / .2));
 
   --top-layer: var(--black-color, #000);
   --bottom-layer: var(--ocean-color), #3d5c72;
