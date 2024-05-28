@@ -3,7 +3,7 @@
   font-family: 'OpenSans-Light';
   src:
     local('OpenSans-Light'),
-    url(./opensans/OpenSans-Light.woff) format('woff');
+    url(./fonts/opensans/OpenSans-Light.woff) format('woff');
   font-weight: 300;
   font-display: swap;
 }
@@ -12,7 +12,7 @@
   font-family: 'Oswald-Bold';
   src:
     local('Oswald-Bold'),
-    url(./oswald/Oswald-Bold.ttf) format('woff');
+    url(./fonts/oswald/Oswald-Bold.ttf) format('woff');
   font-weight: 700;
   font-display: swap;
 }
@@ -21,7 +21,7 @@
   font-family: 'Manrope-Regular';
   src:
     local('Manrope-Regular'),
-    url(./manrope/Manrope-Regular.woff) format('woff');
+    url(./fonts/manrope/Manrope-Regular.woff) format('woff');
   font-weight: 400;
   font-display: swap;
 }
@@ -30,7 +30,7 @@
   font-family: 'Manrope-Bold';
   src:
     local('Manrope-Bold'),
-    url(./manrope/Manrope-Bold.woff) format('woff');
+    url(./fonts/manrope/Manrope-Bold.woff) format('woff');
   font-weight: 700;
   font-display: swap;
 }
