@@ -4,8 +4,12 @@ const сardDetails = [
     status: 'Неупаковано',
     areas: [
       {
+        name: 'НТА-К',
+        value: 0,
+      },
+      {
         name: 'НТА',
-        value: 3,
+        value: 16,
       },
       {
         name: 'АПР-2',
@@ -38,8 +42,12 @@ const сardDetails = [
     status: 'Упаковка',
     areas: [
       {
+        name: 'НТА-К',
+        value: 30,
+      },
+      {
         name: 'НТА',
-        value: 15,
+        value: 0,
       },
       {
         name: 'АПР-2',
@@ -47,7 +55,7 @@ const сardDetails = [
       },
       {
         name: 'АПР-3',
-        value: 60,
+        value: 90,
       },
       {
         name: 'АПР-4',
@@ -59,7 +67,7 @@ const сardDetails = [
       },
       {
         name: 'АПР-8',
-        value: 30,
+        value: 0,
       },
       {
         name: 'АПР-9',
