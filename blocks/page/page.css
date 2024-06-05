@@ -1,0 +1,11 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100%;
+  padding-inline: clamp(0.625rem, -5.757rem + 27.23vw, 18.75rem);
+  color: var(--main-color);
+  font-family: var(--main-font);
+  background-color: var(--bg-color);
+  background-image: linear-gradient(var(--top-layer), var(--bottom-layer));
+  padding-block-start: 40px;
+}

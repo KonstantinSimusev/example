@@ -1,0 +1,8 @@
+.chart-layout {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  justify-items: center;
+  align-items: end;
+}

@@ -1,0 +1,8 @@
+.column__scale {
+  position: relative;
+  border-inline-start: 1px solid var(--border-color);
+  border-inline-end: 1px solid var(--border-color);
+  border-block-start: 1px solid var(--border-color);
+  background-color: var(--column-color);
+  inline-size: 100%;
+}

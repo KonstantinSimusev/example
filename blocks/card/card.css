@@ -1,0 +1,12 @@
+@import url('./__title/card__title.css');
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-inline-size: 320px;
+  border: 1px solid var(--border-color);
+  border-radius: 7px;
+  padding: 10px;
+  background-color: rgb(0 0 0 / .3);
+}

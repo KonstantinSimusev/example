@@ -1,0 +1,4 @@
+.column__list {
+  padding-block-start: 10px;
+  border-block-end: 1px solid var(--border-color);
+}

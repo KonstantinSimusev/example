@@ -1,0 +1,7 @@
+@import url('./__value/column__value.css');
+@import url('./__scale/column__scale.css');
+
+.column__item {
+  inline-size: 100%;
+  padding-inline: 25%;
+}
